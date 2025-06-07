@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Merchandise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div style="position: fixed; inset: 0; z-index: -1; pointer-events: none;">
+    <canvas id="underwater-canvas"></canvas>
+  </div>
+  <header>
+    <h1>MerchStore</h1>
+    <nav>
+      <a href="#home">Beranda</a>
+      <a href="#catalog">Katalog</a>
+      <a href="#contact">Pesan</a>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="info">
+      <p>Jenis barang: Merchandise</p>
+      <div class="rotating-bar" id="rotatingBar">Stiker</div>
+    </div>
+    <div style="display: flex; align-items: center; flex: 1; justify-content: center;">
+      <img src="logo.jpg" alt="Logo Toko" />
+    </div>
+  </section>
+  </section>
+
+  <section id="catalog">
+    <div class="product">
+      <img src="stiker.jpg" alt="Stiker" />
+      <h3>Stiker</h3>
+      <p>Rp 5.000 / pcs</p>
+    </div>
+    <div class="product">
+      <img src="keychain.jpg" alt="Acrylic Keychain" />
+      <h3>Acrylic Keychain</h3>
+      <p>Rp 15.000 / pcs</p>
+    </div>
+    <div class="product">
+      <img src="lanyard_id.jpg" alt="Lanyard ID Card" />
+      <h3>Lanyard ID Card</h3>
+      <p>Rp 10.000 / pcs</p>
+    </div>
+    <div class="product">
+      <img src="lanyard_keychain.jpg" alt="Lanyard Keychain" />
+      <h3>Lanyard Keychain</h3>
+      <p>Rp 12.000 / pcs</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Pesan Sekarang</h2>
+    <div class="contact-buttons">
+      <a href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
+      <a href="https://instagram.com/username" class="instagram" target="_blank">Instagram</a>
+    </div>
+  </section>
+  <script src="script.js"></script>
+  </body>
+  </html>
